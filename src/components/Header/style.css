@@ -1,0 +1,19 @@
+.main {
+  background: gray;
+  display: flex;
+  font: 30px solid tomato;
+  padding: 30px;
+  min-width: 600px;
+  min-height: 100px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.main div {
+  flex-grow: 1;
+}
+
+.active {
+  color: green;
+}
